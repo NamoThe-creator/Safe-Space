@@ -9,4 +9,4 @@ binding = "ASSETS"
 [[d1_databases]]
 binding = "DB"
 database_name = "safe-space-db"
-database_id = "00000000-0000-4000-8000-000000000000"
+database_id = "aee12420-1729-40f0-9780-0b963a28be21"
