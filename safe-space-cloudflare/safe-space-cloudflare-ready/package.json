@@ -1,0 +1,16 @@
+{
+  "name": "safe-space-campus-tycoon",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "setup": "node setup-and-deploy.mjs",
+    "dev": "npx wrangler dev --local",
+    "deploy": "npx wrangler deploy",
+    "db:init:local": "npx wrangler d1 execute safe-space-db --local --file=./drizzle/0000_moaning_blade.sql",
+    "db:init:remote": "npx wrangler d1 execute safe-space-db --remote --file=./drizzle/0000_moaning_blade.sql"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}
